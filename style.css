@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+/* header */
+
+header {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 30px;
+}
+
+header h5 {
+    font-size: 15px;
+    color: green;
+}
+
+.head-links a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: green;
+}
+
+.head-links a:hover {
+    color: blue;
+}
+
+/* Milieu de page */
+
+.centre{
+        background-image: url("./images/pexels-photo-.jpeg");
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        padding: 150px;
+        background-attachment: fixed;
+      
+}
+
+
+.centre h2 {
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.centre h1 {
+  letter-spacing: 2px;
+  font-size: 4.5rem;
+  color: rgb(216, 100, 6);
+}
+
+.centre h3 {
+   
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: black;
+  }
+
+.centre button {
+  background-color: rgba(223, 102, 3, 0.911);
+  color: white;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: ease 1s;
+  border: #faa405  10px;
+}
+
+.centre button:hover {
+  transform: scale(1.1, 1.1);
+  color: rgb(232, 231, 231);
+  background-color: #f56709;
+}
+
+/* Categories section //////////////////////////////*/
+
+.categories-card{
+    box-shadow: 1px 1px 20px #f56709;
+    width: 20%;
+    
+    margin: 20px;
+    cursor: pointer;
+}
+
+.categories-card img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.categories-card-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.categ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categ h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.description{
+    margin-left: 5px;
+}
+
+.categ button {
+    background-color: rgba(223, 102, 3, 0.911);
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: ease 2s;
+    border: #faa405  10px;
+    margin: 20px;
+  }
+
+
+/* products section //////////////////////////////*/
+
+.products-card{
+    box-shadow: 1px 1px 20px #ece6e2;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.products-card img {
+    width: 80%;
+}
+
+.products-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.prod h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details{
+    margin-left: 5px;
+    color: #f56709;
+}
+
+
+
+.products-section button {
+    background-color: rgba(223, 102, 3, 0.911);
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: ease 1s;
+    border: #faa405  10px;
+    margin: 20px;
+    /* float: right; */
+  }
+
+/* section text ////////////////// */
+
+.text-container {
+    
+    overflow: auto;
+    }
+    
+    .text-section h1{
+        text-align: center;
+        font-size: 50px;
+        color: #f56709;
+    }  
+    img {
+        width: 60%;
+        height: 200px;
+        float: left;
+        margin-right: 30px;
+    }
+
+/* footer   /////////////////////////////// */
+
+    footer {
+        background-color: #ecc3dd;
+        color: rgba(2, 41, 7, 0.856);
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+         height: 60px;
+         align-items: center;
+         
+    }
+    
+    
+    
+    .social-media-footer a {
+        font-size: 30px;
+        color: green;
+        margin: 0px 10px;
+        
+    }
+
+/* .centre button {
+    background-color: orange;
+    color: white;
+    border-radius: 8%;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    transition: ease 1s;
+    border: orange;
+
+}
+
+.cover button:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(red, green, blue);
+    background-color: beige;
+} */
